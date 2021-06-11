@@ -1,0 +1,5 @@
+-----------**********--------------------
+
+commands to create laravel project or instance
+
+composer create-project laravel/laravel folder-name 
