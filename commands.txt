@@ -3,3 +3,40 @@
 commands to create laravel project or instance
 
 composer create-project laravel/laravel folder-name 
+
+---------------****-------------------------
+
+commands to start the laravel existing project 
+
+php artisan serve
+
+---------------****-------------------------
+
+commands to create model of table brands -migrate
+
+php artisan make:model brands -m
+
+
+command: after creating the model migrate
+php artisan migrate
+
+command: to migrate fresh , migrate all the model files starting from scratch 
+
+php artisan migrate fresh
+
+---------------****-------------------------
+
+Laravel commands for the rename of the tables though migrate
+composer require doctrine/dbal
+
+
+---------************--------------------
+
+Commands for the migration part , from other instance
+
+php artisan migrate --path="../jlr/database/migrations"
+
+---***---------
+Commands for the migration part , from other instance rollback.
+
+ php artisan migrate:rollback --path="../jlr/database/migrations"
