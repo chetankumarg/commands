@@ -40,3 +40,14 @@ php artisan migrate --path="../jlr/database/migrations"
 Commands for the migration part , from other instance rollback.
 
  php artisan migrate:rollback --path="../jlr/database/migrations"
+
+
+ ---------***---------------
+Create a controller called MyController by executing the following command.
+ php artisan make:controller MyController
+
+ -------****-------
+
+ Artisan is the command line interface included with Laravel. Artisan exists at the root of your application as the artisan script and provides a number of helpful commands that can assist you while you build your application. To view a list of all available Artisan commands, you may use the list command:
+
+ php artisan list
