@@ -51,3 +51,45 @@ Create a controller called MyController by executing the following command.
  Artisan is the command line interface included with Laravel. Artisan exists at the root of your application as the artisan script and provides a number of helpful commands that can assist you while you build your application. To view a list of all available Artisan commands, you may use the list command:
 
  php artisan list
+
+
+ -----------**********------------------------
+
+ To know ubuntu version , commands:
+
+ lsb_release -a
+
+ ---------------------*****---------------------
+
+
+ php artisan config:clear
+php artisan cache:clear
+
+
+----***---------------
+
+Laravel php artisan tinker for the commands to create data to the database..
+
+php artisan tinker
+
+Command 	Description 	Alias
+help 	Show a list of commands. Type help [foo] for information about [foo]. 	?
+ls 	List local, instance or class variables, methods and constants. 	list, dir
+dump 	Dump an object or primitive. 	
+doc 	Read the documentation for an object, class, constant, method or property. 	rtfm, man
+show 	Show the code for an object, class, constant, method or property. 	
+wtf 	Show the backtrace of the most recent exception. 	last-exception, wtf?
+whereami 	Show where you are in the code. 	
+trace 	Show the current call stack. 	
+throw-up 	Throw an exception out of the Psy Shell. 	
+buffer 	Show (or clear) the contents of the code input buffer. 	buf
+clear 	Clear the Psy Shell screen. 	
+history 	Show the Psy Shell history. 	hist
+exit 	End the current session and return to caller. 	quit, q
+clear-compiled 	Remove the compiled class file. 	
+down 	Put the application into maintenance mode. 	
+env 	Display the current framework environment. 	
+optimize 	Optimize the framework for better performance. 	
+up 	Bring the application out of maintenance mode. 	
+migrate 	Run the database migrations. 	
+inspire 	Display an inspiring quote. 	
