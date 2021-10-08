@@ -1,0 +1,7 @@
+React commands to lunch projects
+
+npm run dev / npm start
+
+Lunch 2nd project with different port no
+
+PORT=3001 npm run start
