@@ -93,3 +93,7 @@ optimize 	Optimize the framework for better performance.
 up 	Bring the application out of maintenance mode. 	
 migrate 	Run the database migrations. 	
 inspire 	Display an inspiring quote. 	
+
+------**----------
+php artisan tinker
+ DB::table('followers')->insert(['user_id'=>5, 'follower_id'=>12]);
