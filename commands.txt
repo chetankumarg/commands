@@ -97,3 +97,19 @@ inspire 	Display an inspiring quote.
 ------**----------
 php artisan tinker
  DB::table('followers')->insert(['user_id'=>5, 'follower_id'=>12]);
+ 
+ DB::table('reviews')->insert(['name'=>'My Iphone11', 'hashtags' =>'#iphone1','mobile_user_id' =>1, 'description'=> 'My Iphone11 with gud features','rating'=> 5,'categorie_id'=>1,'publish'=>1,'image' =>'','lat'=>'12.949691','long' => '77.777881','created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+
+DB::table('reviews')->insert(['name'=>'My biki12', 'hashtags' =>'#bikei','mobile_user_id' =>1, 'description'=> 'My bikei with gud features','rating'=> 5,'categorie_id'=>1,'publish'=>1,'image' =>'','lat'=>'12.949691','long' => '77.777881','created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+
+
+DB::table('reviews')->insert(['name'=>'My Carid', 'hashtags' =>'#cari','mobile_user_id' =>1, 'description'=> 'My cari with gud features','rating'=> 5,'categorie_id'=>1,'publish'=>1,'image' =>'','lat'=>'12.949691','long' => '77.777881','created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+
+
+DB::table('categories')->insert(['name'=>'Mobiles','image' => '','created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+DB::table('categories')->insert(['name'=>'Cars','image' => '','created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+DB::table('categories')->insert(['name'=>'Bikes','image' => '','created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+
+DB::table('trendings')->insert(['review_id'=>1,'active'=> 1,'created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+DB::table('trendings')->insert(['review_id'=>2,'active'=> 0,'created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+DB::table('trendings')->insert(['review_id'=>3,'active'=> 1,'created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
