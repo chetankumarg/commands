@@ -113,3 +113,8 @@ DB::table('categories')->insert(['name'=>'Bikes','image' => '','created_at'=> ne
 DB::table('trendings')->insert(['review_id'=>1,'active'=> 1,'created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
 DB::table('trendings')->insert(['review_id'=>2,'active'=> 0,'created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
 DB::table('trendings')->insert(['review_id'=>3,'active'=> 1,'created_at'=> new DateTime(),'updated_at'=> new DateTime()]);
+
+
+/* laravel commands to alter the tables  */
+
+php artisan make:migration add_votes_to_users_table --table=users
